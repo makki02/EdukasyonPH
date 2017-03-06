@@ -67,10 +67,6 @@ body {
   display: inline-block;
 }
 
-.school-item:hover {
-  transform: translate3d(0, -2px, 0) !important;
-}
-
   @media screen and (min-width: 992px) {
     .school-item {
       width: 25%;
@@ -124,11 +120,6 @@ body {
   -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
   box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
-  -webkit-transition: all 0.15s !important;
-  -moz-transition: all 0.15s !important;
-  -ms-transition: all 0.15s !important;
-  -o-transition: all 0.15s !important;
-  transition: all 0.15s !important;
 }
 
 .inner-item:hover {
